@@ -13,6 +13,9 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
 )
 
+list(APPEND CMAKE_FIND_ROOT_PATH ${PROJECT_SOURCE_DIR})
+set (CMAKE_PREFIX_PATH "/usr/local/lib/cmake/nlopt")
+
 # NLOPT is frustratingly inconsistent in the name of its cmake file so we use our own
 list(APPEND CMAKE_FIND_ROOT_PATH ${CMAKE_SOURCE_DIR})
 find_package(NLOPT REQUIRED)
