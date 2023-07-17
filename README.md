@@ -1,3 +1,9 @@
+
+## update 2023/07/17
+
+Modified the odom part in loader.cpp, and changed it to the calculation of external parameters of imu and lidar.
+
+
 # lidar_align
 
 ## A simple method for finding the extrinsic calibration between a 3D lidar and a 6-dof pose sensor
