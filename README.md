@@ -1,3 +1,4 @@
+## Deprecated. Please use the better [LiDAR_IMU_Init](https://github.com/hku-mars/LiDAR_IMU_Init?tab=readme-ov-file)
 
 ## update 2023/07/17
 
